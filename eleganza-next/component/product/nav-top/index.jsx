@@ -75,9 +75,6 @@ export default function NavTop({
                   selectedOption={selectedOption}
                   handleOptionClick={handleOptionClick}
                 />
-                <span>
-                  <img className="mb-1" src="/icons/icon-list.svg" alt="" />
-                </span>
               </div>
             </div>
           </div>
