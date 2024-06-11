@@ -23,7 +23,7 @@ Eleganza Studio 是一個電商平台，通過團隊協作形式進行開發，�
 - **前端**: Next.js, React, Bootstrap
 - **後端**: Express.js, Node.js
 - **數據庫**: MySQL
-- **其他工具**: Posterman, Git, GitHub, Figma
+- **其他工具**: Postman, Git, GitHub, Figma
 
 ## 負責項目
 
