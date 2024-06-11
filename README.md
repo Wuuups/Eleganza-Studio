@@ -71,6 +71,8 @@ cd eleganza-studio
 
 將項目根目錄中的`db_violin.sql`匯入並依據`.env`檔案創建使用者。
 
+### 安裝依賴並啟動開發伺服器
+
 ```
 # 在 eleganza-next 目錄中
 cd eleganza-next
