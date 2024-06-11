@@ -84,6 +84,8 @@ cd ../express-base-esm-main
 npm install
 npm run dev
 ```
+### 伺服器啟動
 
-3.Booom!
+伺服器啟動後，在瀏覽器中打開 http://localhost:3000 查看應用。
+
 
