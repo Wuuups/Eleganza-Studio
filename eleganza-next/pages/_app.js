@@ -1,7 +1,7 @@
 // import Router from 'next/router'
 import { LoaderProvider, useLoader } from '@/hooks/use-loader'
 import { ViolinLoader } from '@/hooks/use-loader/components'
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import React from 'react'
 import { AuthProvider } from '@/hooks/use-auth'
 import DefaultLayout from '@/component/default-layout'
@@ -19,19 +19,17 @@ export default function App({ Component, pageProps }) {
   const getLayout =
     Component.getLayout ||
     ((page) => (
-      <LoaderProvider CustomLoader={ViolinLoader}>
-        <DefaultLayout>
-          <ManageRouteChange>
-            <div className="container">{page}</div>
-          </ManageRouteChange>
-        </DefaultLayout>
-      </LoaderProvider>
+      <AuthProvider>
+        <LoaderProvider CustomLoader={ViolinLoader}>
+          <DefaultLayout>
+            <ManageRouteChange>
+              <div className="container">{page}</div>
+            </ManageRouteChange>
+          </DefaultLayout>
+        </LoaderProvider>
+      </AuthProvider>
     ))
-  return (
-    <>
-      <AuthProvider>{getLayout(<Component {...pageProps} />)}</AuthProvider>
-    </>
-  )
+  return <>{getLayout(<Component {...pageProps} />)}</>
 }
 
 function ManageRouteChange({ children }) {
