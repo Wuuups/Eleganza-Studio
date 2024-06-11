@@ -1,6 +1,6 @@
 # Eleganza Studio
 
-Eleganza Studio 是一個電商平台，通過團隊協作形式進行開發，內容包括商品、會員、課程、文章及購物車系統。開發過程中使用Next.js及Express分別作為前後端框架，並在前端中搭配Bootstrap以提高開發效率。
+Eleganza Studio 是一個透過團隊協作形式進行開發的電商平台，內容包括商品、會員、課程、文章及購物車系統。開發過程中使用Next.js及Express分別作為前後端框架，並在前端中搭配Bootstrap以提高開發效率。
 
 ## 目錄
 
@@ -80,6 +80,6 @@ npm run dev
 ```
 ### 伺服器啟動
 
-伺服器啟動後，在瀏覽器中打開 http://localhost:3000 查看應用。
+伺服器啟動後，在瀏覽器中打開 http://localhost:3000 瀏覽網站。
 
 
