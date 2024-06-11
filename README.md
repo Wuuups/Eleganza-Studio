@@ -33,33 +33,27 @@ Eleganza Studio 是一個電商平台，通過團隊協作形式進行開發，�
 
 ### 專案基礎建置
 
-從完整專案回推開發環境所需的必要配置並定義全站基礎樣式。主要內容包括：
-- 使用Provider建立全站讀取動畫，提升用戶體驗。
+- 使用Provider建立全站讀取動畫。
 - 導入所需框架（如Bootstrap），確保開發流程的標準化和高效性。
-- 設定頁面基礎樣板，確保所有頁面具備一致的結構和樣式，建立有架構的開發環境，減少成員之間的開發衝突，提高團隊開發效率。
+- 設定頁面基礎樣板，確保所有頁面具備一致的結構和樣式，建立有架構的開發環境。
+- 開發不同尺寸下的頁面Header以及Footer。
 
 ### 商品頁開發
 
-開發過程：
-
-- 根據開發流程進行頁面拆解，明確每個步驟所需實現的功能。
 - 使用元件化開發方法，提高代碼的重用性和可維護性。
-- 通過Bootstrap加速樣式和布局的開發，提高開發效率。
-- 使用Express開發後端API，與前端對接。
-  
-頁面功能:
-
 - 個尺寸平台下的RWD。
 - 視窗預覽動畫開發。
-- 商品分頁、商品篩選、商品排序以及商品搜尋和提示效果。
-- 加入購物車功能。
-- 會員登入判斷。
+- 商品分頁、商品篩選、商品排序以及商品搜尋和提示效果，並使用狀態管理功能保留各尺寸下的篩選條件。
+- 使用Hooks開發加入購物車功能、會員登入判斷。
+- 使用React套件製作彈跳視窗。
+- 通過Bootstrap加速樣式和布局的開發，提高開發效率。
+- 使用Express開發後端API，與前端對接。
 
 ## 安裝與使用說明
 
 ### 先決條件
 
-1.請確保的系統已安裝以下軟件：
+1.確保系統已安裝以下軟件：
 - Node.js
 - npm（Node.js的包管理器）
 
@@ -70,12 +64,24 @@ Eleganza Studio 是一個電商平台，通過團隊協作形式進行開發，�
 從GitHub倉庫克隆項目：
 ```bash
 git clone https://github.com/yourusername/eleganza-studio.git
+cd eleganza-studio
 ```
 
-分別於eleganza-next以及express-base-esm-main中進行初始環境安裝並執行
-```cmd
-npm i
+### 資料庫設定
+
+將項目根目錄中的`db_violin.sql`匯入並依據`.env`檔案創建使用者。
+
+```
+# 在 eleganza-next 目錄中
+cd eleganza-next
+npm install
+npm run dev
+
+# 在 express-base-esm-main 目錄中
+cd ../express-base-esm-main
+npm install
 npm run dev
 ```
-booom!
+
+3.Booom!
 
