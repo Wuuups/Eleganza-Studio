@@ -74,7 +74,7 @@ npm install
 npm run dev
 
 # 在 express-base-esm-main 目錄中
-cd ../express-base-esm-main
+cd express-base-esm-main
 npm install
 npm run dev
 ```
