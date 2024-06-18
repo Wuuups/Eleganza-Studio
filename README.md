@@ -35,7 +35,7 @@ Eleganza Studio 是一個透過團隊協作形式進行開發的電商平台，�
 
 #### 商品頁開發
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex;">
   <img src="https://github.com/Wuuups/Eleganza-Studio/assets/157667779/66b159cb-75d9-4ca2-80f6-e370a7bac203" alt="Product display grid" style="width: 48%;"/>
   <img src="https://github.com/Wuuups/Eleganza-Studio/assets/157667779/1c59c42f-d137-4f24-ae73-58fe41c995c5" alt="Product Detail" style="width: 48%;"/>
 </div>
