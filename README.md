@@ -40,6 +40,7 @@ Eleganza Studio 是一個透過團隊協作形式進行開發的電商平台，�
   <img src="https://github.com/Wuuups/Eleganza-Studio/assets/157667779/1c59c42f-d137-4f24-ae73-58fe41c995c5" alt="Product Detail" style="width: 48%;"/>
 </div>
 
+
 - 個尺寸平台下的RWD。
 - 視窗預覽動畫開發。
 - 商品分頁、商品篩選、商品排序以及商品搜尋和提示效果，並使用狀態管理保留各尺寸下的篩選條件。
