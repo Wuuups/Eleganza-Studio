@@ -35,8 +35,7 @@ Eleganza Studio 是一個透過團隊協作形式進行開發的電商平台，�
 
 #### 商品頁開發
 
-![Product dusplay grid](https://github.com/Wuuups/Eleganza-Studio/assets/157667779/66b159cb-75d9-4ca2-80f6-e370a7bac203)
-![Product Detail](https://github.com/Wuuups/Eleganza-Studio/assets/157667779/1c59c42f-d137-4f24-ae73-58fe41c995c5)
+![Product dusplay grid](https://github.com/Wuuups/Eleganza-Studio/assets/157667779/66b159cb-75d9-4ca2-80f6-e370a7bac203) ![Product Detail](https://github.com/Wuuups/Eleganza-Studio/assets/157667779/1c59c42f-d137-4f24-ae73-58fe41c995c5)
 
 - 個尺寸平台下的RWD。
 - 視窗預覽動畫開發。
